@@ -403,7 +403,6 @@ class WebLLMEngineWrapper extends EventTarget {
             return tokens.length;
         } catch (error) {
             console.error(error);
-            if (!this.#silent) toastr.error(`Failed to count tokens: ${error.message}`, 'WebLLM');
         } finally {
             this.#lock.releaseLock();
         }
