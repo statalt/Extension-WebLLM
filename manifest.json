@@ -3,7 +3,7 @@
     "loading_order": 0,
     "requires": [],
     "optional": [],
-    "js": "dist/index.js",
+    "js": "src/index.js",
     "css": "",
     "author": "Cohee1207",
     "version": "1.0.0",
