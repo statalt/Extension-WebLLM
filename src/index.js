@@ -64,7 +64,7 @@ class WebLLMEngineWrapper extends EventTarget {
      * Set to true to suppress progress messages.
      * @type {boolean}
      */
-    #silent = false;
+    #silent = true;
     /**
      * Default completion parameters.
      * @type {CompletionParam}
